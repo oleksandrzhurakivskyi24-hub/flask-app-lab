@@ -1,10 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+
+<section id="about" class="resume-section">
+    <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center">
+            <img
+                src="{{ url_for('static', filename='images/profile.jpg') }}"
+                class="profile-image img-fluid rounded-circle"
+            >
+        </div>
+
+        <div class="col-md-8">
+            <h2>PROFILE</h2>
+            <p>
+                Motivated software developer with solid practical knowledge in programming, databases, and web development. Eager to apply my skills in real-world projects.
+            </p>
+        </div>
+    </div>
+</section>
+
+<nav class="resume-navigation my-4" aria-label="Навігація резюме">
+    <a href="#education">EDUCATION</a>
+    <a href="#skills">IT SKILLS</a>
+    <a href="#technologies">TECHNOLOGIES</a>
+    <a href="#experience">PROJECTS</a>
+</nav>
+
+<section id="education" class="resume-section">
+    <h2>EDUCATION</h2>
+    <p>
+        Deutschkurs, Lucern 2025 – 2026, SmartTalk<br>
+        University, Ukraine Software Engineering 2024 - Present, Vasyl Stefanyk Precarpathian National University<br>
+        Secondary School, Ukraine 2013 – 2024, Bodnariv Lyzeum
+    </p>
+</section>
+
+<section id="skills" class="resume-section">
+    <h2>IT SKILLS</h2>
+    <ul>
+        <li>Programming languages: C++, Java, Python, SQL</li>
+        <li>Web development: HTML, CSS, JavaScript</li>
+        <li>Networking: Fundamentals of network architecture, simulation in Cisco Packet Tracer</li>
+        <li>Design: Figma</li>
+        <li>Methods: Object-Oriented Programming (OOP), database modeling</li>
+    </ul>
+</section>
+
+<section id="technologies" class="resume-section">
+    <h2>TECHNOLOGIES</h2>
+    <ul>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>HTML5 and CSS3</li>
+        <li>Bootstrap</li>
+        <li>Git and GitHub</li>
+    </ul>
+</section>
+
+<section id="experience" class="resume-section">
+    <h2>PROJECTS</h2>
+    <article>
+        <h4>Database Project – Fitness Center</h4>
+  <ul>
+    <li>Development of a database simulating processes in a fitness center</li>
+    <li>Testing and analysis with small and medium datasets</li>
+  </ul>
+
+  <h4>Web Development & Console Applications</h4>
+  <ul>
+    <li>Development of Java applications for automating data processing</li>
+    <li>Implementation of sorting algorithms and basic CRUD operations (insert, sort, store)</li>
+    <li>Creation of simple websites (HTML, CSS, JavaScript)</li>
+    <li>Structuring and presentation of information content</li>
+  </ul>
+    </article>
+</section>
+
+{% endblock %}

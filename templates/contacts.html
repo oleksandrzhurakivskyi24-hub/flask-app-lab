@@ -1,10 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+
+<section class="contact-section">
+    <h2>Зв'язатися зі мною</h2>
+
+    <p>
+        Якщо у вас є запитання або пропозиції,
+        скористайтеся формою нижче.
+    </p>
+
+    <div class="contact-details mb-4">
+        <p><strong>Email:</strong> oleksandr.zhurakivskyi.24@pnu.edu.ua</p>
+
+        <p><strong>GitHub Profile:</strong>
+            <a href="https://github.com/oleksandrzhurakivskyi24-hub" target="_blank">oleksandrzhurakivskyi24-hub</a></p>
+
+        <p><strong>Project Repository:</strong>
+            <a href="https://github.com/oleksandrzhurakivskyi24-hub/flask-app-lab" target="_blank">flask-app-lab</a></p>
+    </div>
+
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Ваше ім'я</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                placeholder="Введіть ім'я"
+                required
+            >
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Електронна пошта</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="name@example.com"
+                required
+            >
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Повідомлення</label>
+            <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                rows="5"
+                placeholder="Ваше повідомлення"
+                required
+            ></textarea>
+        </div>
+
+        <button type="button" class="btn btn-primary">
+            Надіслати
+        </button>
+    </form>
+
+    <p class="text-muted mt-3">
+        PS: повідомлення поки що не надсилаються.
+    </p>
+</section>
+
+{% endblock %}
