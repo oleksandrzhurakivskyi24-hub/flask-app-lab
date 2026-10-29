@@ -171,3 +171,26 @@ def delete_all_cookies():
 
     flash("Користувацькі cookies видалено.", "success")
     return response
+
+@user_bp.route("/profile/theme/<theme>", methods=["POST"])
+def set_theme(theme):
+    if not session.get("username"):
+        flash("Спочатку увійдіть у систему.", "warning")
+        return redirect(url_for("users.login"))
+
+    if theme not in {"light", "dark"}:
+        flash("Невідома кольорова схема.", "error")
+        return redirect(url_for("users.profile"))
+
+    response = make_response(redirect(url_for("users.profile")))
+
+    response.set_cookie(
+        "theme",
+        theme,
+        max_age=60 * 60 * 24 * 30,
+        httponly=True,
+        samesite="Lax",
+    )
+
+    flash("Кольорову схему змінено.", "success")
+    return response

@@ -92,3 +92,47 @@ h3 {
 .card {
     border-radius: 12px;
 }
+
+.theme-light {
+    background-color: #ffffff;
+    color: #212529;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.theme-light .card {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.theme-dark {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.theme-dark .card {
+    background-color: #343a40;
+    color: #f8f9fa;
+    border-color: #495057;
+}
+
+.theme-dark .form-control {
+    background-color: #212529;
+    color: #f8f9fa;
+    border-color: #6c757d;
+}
+
+.theme-dark .form-control::placeholder {
+    color: #ced4da;
+}
+
+.theme-dark .table {
+    color: #f8f9fa;
+}
+
+.theme-dark .table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: #f8f9fa;
+    background-color: #343a40;
+}

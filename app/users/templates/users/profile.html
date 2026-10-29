@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="container py-4">
+<div class="container py-4 {{ 'theme-dark' if theme == 'dark' else 'theme-light' }}">
     <h2>Особистий профіль</h2>
     <p class="lead">Вітаємо, {{ username }}!</p>
 
@@ -130,7 +130,25 @@
         </div>
     </div>
 
+    <div class="d-flex flex-wrap gap-2 mb-4">
+        <form
+            method="POST"
+            action="{{ url_for('users.set_theme', theme='light') }}"
+        >
+            <button type="submit" class="btn btn-outline-secondary">
+                Світла тема
+            </button>
+        </form>
 
+        <form
+            method="POST"
+            action="{{ url_for('users.set_theme', theme='dark') }}"
+        >
+            <button type="submit" class="btn btn-outline-dark">
+                Темна тема
+            </button>
+        </form>
+    </div>
 
     <form method="POST" action="{{ url_for('users.logout') }}">
         <button type="submit" class="btn btn-danger">
