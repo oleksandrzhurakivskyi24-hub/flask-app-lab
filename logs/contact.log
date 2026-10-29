@@ -1,0 +1,192 @@
+2026-10-30 00:21:36,969 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:21:36,969 INFO Press CTRL+C to quit
+2026-10-30 00:21:36,970 INFO  * Restarting with stat
+2026-10-30 00:21:37,210 WARNING  * Debugger is active!
+2026-10-30 00:21:37,212 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:21:58,677 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:21:58,677 INFO Press CTRL+C to quit
+2026-10-30 00:21:58,678 INFO  * Restarting with stat
+2026-10-30 00:21:58,927 WARNING  * Debugger is active!
+2026-10-30 00:21:58,929 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:32:35,641 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:32:35,641 INFO Press CTRL+C to quit
+2026-10-30 00:32:35,641 INFO  * Restarting with stat
+2026-10-30 00:32:35,885 WARNING  * Debugger is active!
+2026-10-30 00:32:35,887 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:36:21,316 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+2026-10-30 00:36:21,316 INFO Press CTRL+C to quit
+2026-10-30 00:36:21,317 INFO  * Restarting with stat
+2026-10-30 00:36:21,557 WARNING  * Debugger is active!
+2026-10-30 00:36:21,559 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:36:38,306 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:36:38,307 INFO Press CTRL+C to quit
+2026-10-30 00:36:38,307 INFO  * Restarting with stat
+2026-10-30 00:36:38,543 WARNING  * Debugger is active!
+2026-10-30 00:36:38,545 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:37:22,456 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:37:22,456 INFO Press CTRL+C to quit
+2026-10-30 00:37:22,457 INFO  * Restarting with stat
+2026-10-30 00:37:22,693 WARNING  * Debugger is active!
+2026-10-30 00:37:22,695 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:37:27,607 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+2026-10-30 00:37:27,607 INFO Press CTRL+C to quit
+2026-10-30 00:37:27,608 INFO  * Restarting with stat
+2026-10-30 00:37:27,839 WARNING  * Debugger is active!
+2026-10-30 00:37:27,841 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:39:15,166 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:39:15,166 INFO Press CTRL+C to quit
+2026-10-30 00:39:15,167 INFO  * Restarting with stat
+2026-10-30 00:39:15,403 WARNING  * Debugger is active!
+2026-10-30 00:39:15,405 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:39:33,225 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+2026-10-30 00:39:33,225 INFO Press CTRL+C to quit
+2026-10-30 00:39:33,225 INFO  * Restarting with stat
+2026-10-30 00:39:33,466 WARNING  * Debugger is active!
+2026-10-30 00:39:33,467 INFO  * Debugger PIN: 312-859-455
+2026-10-30 00:42:20,833 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:42:20,833 INFO Press CTRL+C to quit
+2026-10-30 00:42:38,640 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:42:38,640 INFO Press CTRL+C to quit
+2026-10-30 00:43:11,735 INFO 127.0.0.1 - - [30/Oct/2026 00:43:11] "GET / HTTP/1.1" 200 -
+2026-10-30 00:43:11,823 INFO 127.0.0.1 - - [30/Oct/2026 00:43:11] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:11,844 INFO 127.0.0.1 - - [30/Oct/2026 00:43:11] "GET /favicon.ico HTTP/1.1" 404 -
+2026-10-30 00:43:14,888 INFO 127.0.0.1 - - [30/Oct/2026 00:43:14] "GET /resume HTTP/1.1" 200 -
+2026-10-30 00:43:14,894 INFO 127.0.0.1 - - [30/Oct/2026 00:43:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:14,896 INFO 127.0.0.1 - - [30/Oct/2026 00:43:14] "GET /static/images/profile.jpg HTTP/1.1" 304 -
+2026-10-30 00:43:15,647 ERROR Exception on /contact [GET]
+Traceback (most recent call last):
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\app\views.py", line 69, in contact
+    return render_template(
+        "contact.html",
+        form=form,
+        title="Контакти",
+    )
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\app\templates\contact.html", line 2, in top-level template code
+    {% from "includes/_form_macros.html" import render_field %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: includes/_form_macros.html
+2026-10-30 00:43:15,658 INFO 127.0.0.1 - - [30/Oct/2026 00:43:15] "GET /contact HTTP/1.1" 500 -
+2026-10-30 00:43:18,376 INFO 127.0.0.1 - - [30/Oct/2026 00:43:18] "GET /users/profile HTTP/1.1" 302 -
+2026-10-30 00:43:18,384 INFO 127.0.0.1 - - [30/Oct/2026 00:43:18] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 00:43:18,392 INFO 127.0.0.1 - - [30/Oct/2026 00:43:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:19,045 ERROR Exception on /contact [GET]
+Traceback (most recent call last):
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\app\views.py", line 69, in contact
+    return render_template(
+        "contact.html",
+        form=form,
+        title="Контакти",
+    )
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 132, in _render
+    rv = template.render(context)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\app\templates\contact.html", line 2, in top-level template code
+    {% from "includes/_form_macros.html" import render_field %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Web_Programming_Python\flask_app_Zhurakivskyi\.venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: includes/_form_macros.html
+2026-10-30 00:43:19,048 INFO 127.0.0.1 - - [30/Oct/2026 00:43:19] "GET /contact HTTP/1.1" 500 -
+2026-10-30 00:43:40,923 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:43:40,923 INFO Press CTRL+C to quit
+2026-10-30 00:43:48,173 INFO 127.0.0.1 - - [30/Oct/2026 00:43:48] "GET / HTTP/1.1" 200 -
+2026-10-30 00:43:48,262 INFO 127.0.0.1 - - [30/Oct/2026 00:43:48] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:48,284 INFO 127.0.0.1 - - [30/Oct/2026 00:43:48] "GET /favicon.ico HTTP/1.1" 404 -
+2026-10-30 00:43:49,599 INFO 127.0.0.1 - - [30/Oct/2026 00:43:49] "GET /contact HTTP/1.1" 500 -
+2026-10-30 00:43:49,610 INFO 127.0.0.1 - - [30/Oct/2026 00:43:49] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-10-30 00:43:49,610 INFO 127.0.0.1 - - [30/Oct/2026 00:43:49] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-10-30 00:43:49,618 INFO 127.0.0.1 - - [30/Oct/2026 00:43:49] "GET /contact?__debugger__=yes&cmd=resource&f=console.png&s=ld1RR2PeR8AMvG5eouPQ HTTP/1.1" 200 -
+2026-10-30 00:43:49,659 INFO 127.0.0.1 - - [30/Oct/2026 00:43:49] "GET /contact?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-10-30 00:43:56,927 INFO 127.0.0.1 - - [30/Oct/2026 00:43:56] "GET /users/profile HTTP/1.1" 302 -
+2026-10-30 00:43:56,936 INFO 127.0.0.1 - - [30/Oct/2026 00:43:56] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 00:43:56,943 INFO 127.0.0.1 - - [30/Oct/2026 00:43:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:57,543 INFO 127.0.0.1 - - [30/Oct/2026 00:43:57] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 00:43:57,553 INFO 127.0.0.1 - - [30/Oct/2026 00:43:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:57,998 INFO 127.0.0.1 - - [30/Oct/2026 00:43:57] "GET /products/ HTTP/1.1" 200 -
+2026-10-30 00:43:58,005 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:58,426 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /contacts HTTP/1.1" 200 -
+2026-10-30 00:43:58,434 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:58,820 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /resume HTTP/1.1" 200 -
+2026-10-30 00:43:58,827 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:58,828 INFO 127.0.0.1 - - [30/Oct/2026 00:43:58] "GET /static/images/profile.jpg HTTP/1.1" 304 -
+2026-10-30 00:43:59,231 INFO 127.0.0.1 - - [30/Oct/2026 00:43:59] "GET / HTTP/1.1" 200 -
+2026-10-30 00:43:59,239 INFO 127.0.0.1 - - [30/Oct/2026 00:43:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:43:59,688 INFO 127.0.0.1 - - [30/Oct/2026 00:43:59] "GET / HTTP/1.1" 200 -
+2026-10-30 00:43:59,696 INFO 127.0.0.1 - - [30/Oct/2026 00:43:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:44:00,477 INFO 127.0.0.1 - - [30/Oct/2026 00:44:00] "GET /contact HTTP/1.1" 500 -
+2026-10-30 00:44:00,488 INFO 127.0.0.1 - - [30/Oct/2026 00:44:00] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-10-30 00:44:00,490 INFO 127.0.0.1 - - [30/Oct/2026 00:44:00] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-10-30 00:44:00,501 INFO 127.0.0.1 - - [30/Oct/2026 00:44:00] "GET /contact?__debugger__=yes&cmd=resource&f=console.png&s=ld1RR2PeR8AMvG5eouPQ HTTP/1.1" 304 -
+2026-10-30 00:44:03,832 INFO 127.0.0.1 - - [30/Oct/2026 00:44:03] "GET /users/profile HTTP/1.1" 302 -
+2026-10-30 00:44:03,839 INFO 127.0.0.1 - - [30/Oct/2026 00:44:03] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 00:44:03,845 INFO 127.0.0.1 - - [30/Oct/2026 00:44:03] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:44:04,545 INFO 127.0.0.1 - - [30/Oct/2026 00:44:04] "GET /products/ HTTP/1.1" 200 -
+2026-10-30 00:44:04,553 INFO 127.0.0.1 - - [30/Oct/2026 00:44:04] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:44:05,143 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 00:44:05,151 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 00:44:05,699 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /contact HTTP/1.1" 500 -
+2026-10-30 00:44:05,708 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /contact?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-10-30 00:44:05,709 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /contact?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-10-30 00:44:05,714 INFO 127.0.0.1 - - [30/Oct/2026 00:44:05] "GET /contact?__debugger__=yes&cmd=resource&f=console.png&s=ld1RR2PeR8AMvG5eouPQ HTTP/1.1" 304 -
+2026-10-30 00:48:00,028 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:48:00,028 INFO Press CTRL+C to quit
+2026-10-30 00:50:32,460 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:50:32,460 INFO Press CTRL+C to quit
+2026-10-30 00:51:04,324 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 00:51:04,324 INFO Press CTRL+C to quit

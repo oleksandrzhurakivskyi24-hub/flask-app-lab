@@ -18,18 +18,20 @@
 </head>
 <body>
     {% include "includes/_navbar.html" %}
+
     <div class="container mt-3">
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
+                    {% set alert_type = {
+                        'success': 'success',
+                        'error': 'danger',
+                        'warning': 'warning',
+                        'info': 'info'
+                    }.get(category, 'secondary') %}
+
                     <div
-                        class="alert alert-{{ {
-                            'success': 'success',
-                            'error': 'danger',
-                            'warning': 'warning',
-                            'info': 'info',
-                            'message': 'secondary'
-                        }.get(category, 'secondary') }} alert-dismissible fade show"
+                        class="alert alert-{{ alert_type }} alert-dismissible fade show"
                         role="alert"
                     >
                         {{ message }}
@@ -45,6 +47,7 @@
             {% endif %}
         {% endwith %}
     </div>
+
     <main class="container py-4">
         <h1 class="mb-4">{{ title }}</h1>
 
