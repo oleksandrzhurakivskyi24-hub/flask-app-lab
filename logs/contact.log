@@ -190,3 +190,75 @@ jinja2.exceptions.TemplateNotFound: includes/_form_macros.html
 2026-10-30 00:51:04,324 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on http://127.0.0.1:5000
 2026-10-30 00:51:04,324 INFO Press CTRL+C to quit
+2026-10-30 01:03:00,492 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:03:00,492 INFO Press CTRL+C to quit
+2026-10-30 01:03:10,745 INFO 127.0.0.1 - - [30/Oct/2026 01:03:10] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:10,833 INFO 127.0.0.1 - - [30/Oct/2026 01:03:10] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:10,851 INFO 127.0.0.1 - - [30/Oct/2026 01:03:10] "GET /favicon.ico HTTP/1.1" 404 -
+2026-10-30 01:03:20,270 INFO 127.0.0.1 - - [30/Oct/2026 01:03:20] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:20,277 INFO 127.0.0.1 - - [30/Oct/2026 01:03:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:21,306 INFO 127.0.0.1 - - [30/Oct/2026 01:03:21] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:21,316 INFO 127.0.0.1 - - [30/Oct/2026 01:03:21] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:21,879 INFO 127.0.0.1 - - [30/Oct/2026 01:03:21] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:21,889 INFO 127.0.0.1 - - [30/Oct/2026 01:03:21] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:22,461 INFO 127.0.0.1 - - [30/Oct/2026 01:03:22] "GET /users/profile HTTP/1.1" 302 -
+2026-10-30 01:03:22,468 INFO 127.0.0.1 - - [30/Oct/2026 01:03:22] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 01:03:22,474 INFO 127.0.0.1 - - [30/Oct/2026 01:03:22] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:23,063 INFO 127.0.0.1 - - [30/Oct/2026 01:03:23] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 01:03:23,072 INFO 127.0.0.1 - - [30/Oct/2026 01:03:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:23,478 INFO 127.0.0.1 - - [30/Oct/2026 01:03:23] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:23,483 INFO 127.0.0.1 - - [30/Oct/2026 01:03:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:24,855 INFO 127.0.0.1 - - [30/Oct/2026 01:03:24] "GET /users/profile HTTP/1.1" 302 -
+2026-10-30 01:03:24,861 INFO 127.0.0.1 - - [30/Oct/2026 01:03:24] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 01:03:24,868 INFO 127.0.0.1 - - [30/Oct/2026 01:03:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:25,438 INFO 127.0.0.1 - - [30/Oct/2026 01:03:25] "GET /users/login HTTP/1.1" 200 -
+2026-10-30 01:03:25,447 INFO 127.0.0.1 - - [30/Oct/2026 01:03:25] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:27,435 INFO 127.0.0.1 - - [30/Oct/2026 01:03:27] "GET /contacts HTTP/1.1" 200 -
+2026-10-30 01:03:27,442 INFO 127.0.0.1 - - [30/Oct/2026 01:03:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:29,080 INFO 127.0.0.1 - - [30/Oct/2026 01:03:29] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:29,088 INFO 127.0.0.1 - - [30/Oct/2026 01:03:29] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:03:45,758 INFO Contact form submitted: name='Olexandr' email='zhurakivskiysasa@gmail.com' subject='feedback' message='іапоіаоччапочалчл'
+2026-10-30 01:03:45,758 INFO 127.0.0.1 - - [30/Oct/2026 01:03:45] "POST /contact HTTP/1.1" 302 -
+2026-10-30 01:03:45,764 INFO 127.0.0.1 - - [30/Oct/2026 01:03:45] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:03:45,772 INFO 127.0.0.1 - - [30/Oct/2026 01:03:45] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:10:27,984 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:10:27,984 INFO Press CTRL+C to quit
+2026-10-30 01:13:00,942 INFO 127.0.0.1 - - [30/Oct/2026 01:13:00] "GET / HTTP/1.1" 200 -
+2026-10-30 01:13:01,028 INFO 127.0.0.1 - - [30/Oct/2026 01:13:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-10-30 01:13:01,198 INFO 127.0.0.1 - - [30/Oct/2026 01:13:01] "GET /favicon.ico HTTP/1.1" 404 -
+2026-10-30 01:13:03,694 INFO 127.0.0.1 - - [30/Oct/2026 01:13:03] "GET /contact HTTP/1.1" 200 -
+2026-10-30 01:13:03,701 INFO 127.0.0.1 - - [30/Oct/2026 01:13:03] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:18:35,121 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:18:35,121 INFO Press CTRL+C to quit
+2026-10-30 01:19:30,927 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8080
+2026-10-30 01:19:30,927 INFO Press CTRL+C to quit
+2026-10-30 01:19:30,928 INFO  * Restarting with stat
+2026-10-30 01:19:31,169 WARNING  * Debugger is active!
+2026-10-30 01:19:31,171 INFO  * Debugger PIN: 312-859-455
+2026-10-30 01:24:23,718 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:24:23,718 INFO Press CTRL+C to quit
+2026-10-30 01:25:00,344 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:25:00,344 INFO Press CTRL+C to quit
+2026-10-30 01:25:40,065 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:25:40,066 INFO Press CTRL+C to quit
+2026-10-30 01:25:41,396 INFO 127.0.0.1 - - [30/Oct/2026 01:25:41] "GET / HTTP/1.1" 200 -
+2026-10-30 01:25:41,450 INFO 127.0.0.1 - - [30/Oct/2026 01:25:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:25:54,525 INFO 127.0.0.1 - - [30/Oct/2026 01:25:54] "GET / HTTP/1.1" 200 -
+2026-10-30 01:25:54,572 INFO 127.0.0.1 - - [30/Oct/2026 01:25:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-10-30 01:25:54,606 INFO 127.0.0.1 - - [30/Oct/2026 01:25:54] "GET /favicon.ico HTTP/1.1" 404 -
+2026-10-30 01:26:07,202 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:26:07,202 INFO Press CTRL+C to quit
+2026-10-30 01:26:19,290 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:26:19,290 INFO Press CTRL+C to quit
+2026-10-30 01:29:00,178 INFO WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-10-30 01:29:00,178 INFO Press CTRL+C to quit
