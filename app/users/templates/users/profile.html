@@ -2,27 +2,140 @@
 
 {% block content %}
 <div class="container py-4">
-    <div class="card shadow-sm">
+    <h2>Особистий профіль</h2>
+    <p class="lead">Вітаємо, {{ username }}!</p>
+
+    <div class="card shadow-sm mb-4">
         <div class="card-body">
-            <h2>Особистий профіль</h2>
-
-            <p class="lead">
-                Вітаємо, {{ username }}!
-            </p>
-
-            <p>
-                Ви успішно авторизовані.
-            </p>
+            <h3>Додати cookie</h3>
 
             <form
                 method="POST"
-                action="{{ url_for('users.logout') }}"
+                action="{{ url_for('users.add_cookie') }}"
             >
-                <button type="submit" class="btn btn-danger">
-                    Вийти
+                <div class="mb-3">
+                    <label for="key" class="form-label">
+                        Ключ
+                    </label>
+                    <input
+                        type="text"
+                        id="key"
+                        name="key"
+                        class="form-control"
+                        required
+                    >
+                </div>
+
+                <div class="mb-3">
+                    <label for="value" class="form-label">
+                        Значення
+                    </label>
+                    <input
+                        type="text"
+                        id="value"
+                        name="value"
+                        class="form-control"
+                        required
+                    >
+                </div>
+
+                <div class="mb-3">
+                    <label for="max_age" class="form-label">
+                        Термін дії (секунди)
+                    </label>
+                    <input
+                        type="number"
+                        id="max_age"
+                        name="max_age"
+                        class="form-control"
+                        min="1"
+                        value="3600"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Додати cookie
                 </button>
             </form>
         </div>
     </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h3>Видалити cookie</h3>
+
+            <form
+                method="POST"
+                action="{{ url_for('users.delete_cookie') }}"
+                class="mb-3"
+            >
+                <label for="delete_key" class="form-label">
+                    Ключ cookie
+                </label>
+
+                <input
+                    type="text"
+                    id="delete_key"
+                    name="key"
+                    class="form-control mb-3"
+                    required
+                >
+
+                <button type="submit" class="btn btn-warning">
+                    Видалити за ключем
+                </button>
+            </form>
+
+            <form
+                method="POST"
+                action="{{ url_for('users.delete_all_cookies') }}"
+            >
+                <button type="submit" class="btn btn-danger">
+                    Видалити всі користувацькі cookies
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h3>Поточні cookies</h3>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Ключ</th>
+                            <th>Значення</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {% for key, value in cookies.items() %}
+                        <tr>
+                            <td>{{ key }}</td>
+                            <td>{{ value }}</td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="2">
+                                Користувацьких cookies поки немає.
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form method="POST" action="{{ url_for('users.logout') }}">
+        <button type="submit" class="btn btn-danger">
+            Вийти
+        </button>
+    </form>
 </div>
 {% endblock %}
