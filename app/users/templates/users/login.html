@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="mb-4">Вхід у систему</h2>
+
+                    <form
+                        method="POST"
+                        action="{{ url_for('users.login') }}"
+                    >
+                        <div class="mb-3">
+                            <label
+                                for="username"
+                                class="form-label"
+                            >
+                                Ім'я користувача
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="username"
+                                name="username"
+                                autocomplete="username"
+                                required
+                            >
+                        </div>
+
+                        <div class="mb-3">
+                            <label
+                                for="password"
+                                class="form-label"
+                            >
+                                Пароль
+                            </label>
+
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                autocomplete="current-password"
+                                required
+                            >
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary w-100"
+                        >
+                            Увійти
+                        </button>
+                    </form>
+
+                    <p class="text-muted mt-3 mb-0">
+                        Навчальний обліковий запис:
+                        student / python123
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2>Особистий профіль</h2>
+
+            <p class="lead">
+                Вітаємо, {{ username }}!
+            </p>
+
+            <p>
+                Ви успішно авторизовані.
+            </p>
+
+            <form
+                method="POST"
+                action="{{ url_for('users.logout') }}"
+            >
+                <button type="submit" class="btn btn-danger">
+                    Вийти
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
